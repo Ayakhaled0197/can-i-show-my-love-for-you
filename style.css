@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Madimi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Madimi One", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(252, 174, 250);
+}
+div{
+    background-color: aliceblue;
+    padding:  2rem 3rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+h1{
+    color:rgb(15, 3, 148);
+    padding: 3rem 0;
+}
+a{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: none;
+    color:rgb(81, 0, 255);
+    padding : 0.5rem 0;
+}
+img{
+    display: flex;
+}
+audio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+a:hover{
+    font-size: xx-large;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    color:red;
+}
